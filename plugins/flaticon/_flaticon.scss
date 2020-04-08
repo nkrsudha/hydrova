@@ -1,9 +1,9 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 08/04/2020 05:58
-  	*/
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 08/04/2020 05:58
+    */
 
-@font-face {
+    @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -22,13 +22,22 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-  font-family: Flaticon;
-font-style: normal;
-}
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
 
-.flaticon-maintenance:before { content: "\f100"; }
+    .flaticon-maintenance:before { content: "\f100"; }
 .flaticon-automation:before { content: "\f101"; }
 .flaticon-pool:before { content: "\f102"; }
 .flaticon-pool-1:before { content: "\f103"; }
@@ -52,3 +61,28 @@ font-style: normal;
 .flaticon-factory:before { content: "\f115"; }
 .flaticon-optimization:before { content: "\f116"; }
 .flaticon-contract:before { content: "\f117"; }
+    
+    $font-Flaticon-maintenance: "\f100";
+    $font-Flaticon-automation: "\f101";
+    $font-Flaticon-pool: "\f102";
+    $font-Flaticon-pool-1: "\f103";
+    $font-Flaticon-automation-1: "\f104";
+    $font-Flaticon-branch: "\f105";
+    $font-Flaticon-worker: "\f106";
+    $font-Flaticon-valve: "\f107";
+    $font-Flaticon-manufacture: "\f108";
+    $font-Flaticon-shipped: "\f109";
+    $font-Flaticon-forklift: "\f10a";
+    $font-Flaticon-oil-truck: "\f10b";
+    $font-Flaticon-settings: "\f10c";
+    $font-Flaticon-gas-station: "\f10d";
+    $font-Flaticon-robotic-arm: "\f10e";
+    $font-Flaticon-box: "\f10f";
+    $font-Flaticon-worker-1: "\f110";
+    $font-Flaticon-employee: "\f111";
+    $font-Flaticon-robotic-arm-1: "\f112";
+    $font-Flaticon-customer-support: "\f113";
+    $font-Flaticon-assembly: "\f114";
+    $font-Flaticon-factory: "\f115";
+    $font-Flaticon-optimization: "\f116";
+    $font-Flaticon-contract: "\f117";
