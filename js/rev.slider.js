@@ -121,9 +121,9 @@ function dz_rev_slider_2(){
 			jsFileLocation:"plugins/revolution/revolution/js/",
 			sliderLayout:"fullscreen",
 			dottedOverlay:"none",
-			delay:9000,
+			delay:3000,
 			navigation: {
-				keyboardNavigation:"off",
+				keyboardNavigation:"on",
 				keyboard_direction: "horizontal",
 				mouseScrollNavigation:"off",
 				mouseScrollReverse:"default",
